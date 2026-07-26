@@ -2,11 +2,11 @@ const form = document.querySelector("#intakeForm");
 const output = document.querySelector("#intakeOutput");
 
 const readings = {
-  "Clarifier une situation": "Premiere lecture: commencer par separer les faits observes, les interpretations, les tensions et les decisions deja prises.",
-  "Organiser un atelier": "Premiere lecture: un atelier utile doit avoir un objet simple, des roles explicites et une trace partageable apres la rencontre.",
-  "Identifier des partenaires": "Premiere lecture: cartographier les besoins et ressources avant de chercher les acteurs evite les rapprochements artificiels.",
-  "Structurer un projet": "Premiere lecture: formuler le territoire, les beneficiaires, les contraintes et les preuves disponibles donne une base solide.",
-  "Apaiser une tension": "Premiere lecture: qualifier la tension comme une donnee du systeme aide a proteger les personnes et a rouvrir l'action."
+  "Clarifier une situation": "Première lecture : commencer par séparer les faits observés, les interprétations, les tensions et les décisions déjà prises.",
+  "Organiser un atelier": "Première lecture : un atelier utile doit avoir un objet simple, des rôles explicites et une trace partageable après la rencontre.",
+  "Identifier des partenaires": "Première lecture : cartographier les besoins et les ressources avant de chercher les acteurs évite les rapprochements artificiels.",
+  "Structurer un projet": "Première lecture : formuler le territoire, les bénéficiaires, les contraintes et les preuves disponibles donne une base solide.",
+  "Apaiser une tension": "Première lecture : qualifier la tension comme une donnée du système aide à protéger les personnes et à rouvrir l'action."
 };
 
 form?.addEventListener("submit", (event) => {
@@ -16,11 +16,11 @@ form?.addEventListener("submit", (event) => {
   const priority = data.get("priority");
   const message = String(data.get("message") || "").trim();
   const detail = message
-    ? "La prochaine etape serait de relier ce recit a des acteurs, ressources, contraintes et preuves."
-    : "Ajoutez ensuite quelques lignes de contexte pour transformer cette orientation en vrai pre-diagnostic.";
+    ? "La prochaine étape serait de relier ce récit à des acteurs, des ressources, des contraintes et des preuves."
+    : "Ajoutez ensuite quelques lignes de contexte pour transformer cette orientation en vrai pré-diagnostic.";
 
   output.innerHTML = `
     <strong>${readings[priority] || readings["Clarifier une situation"]}</strong>
-    <span>Contexte selectionne: ${context}. ${detail}</span>
+    <span>Contexte sélectionné : ${context}. ${detail}</span>
   `;
 });
