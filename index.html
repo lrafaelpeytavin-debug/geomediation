@@ -3,196 +3,285 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Géomédiation - Territoires, médiation et coopération</title>
+    <title>Géomédiation - Médiation territoriale et coopération</title>
     <meta
       name="description"
-      content="Géomédiation accompagne les territoires, collectifs et organisations pour rendre visibles les besoins, ressources et coopérations possibles."
+      content="Géomédiation aide les territoires, collectifs et organisations à clarifier les situations, relier les acteurs et construire des coopérations praticables."
     />
-    <link rel="preload" href="assets/territory-hero.png" as="image" />
+    <meta name="theme-color" content="#17211e" />
+    <meta property="og:title" content="Géomédiation" />
+    <meta
+      property="og:description"
+      content="Comprendre les situations territoriales, relier les acteurs et rendre la coopération praticable."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preload" href="assets/territory-hero.webp" as="image" type="image/webp" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
     <header class="site-header">
       <a class="brand" href="#accueil" aria-label="Accueil Géomédiation">
-        <span class="brand-mark"></span>
+        <span class="brand-mark" aria-hidden="true"></span>
         <span>Géomédiation</span>
       </a>
       <nav class="nav" aria-label="Navigation principale">
         <a href="#approche">Approche</a>
-        <a href="#parcours">Parcours</a>
+        <a href="#interventions">Interventions</a>
+        <a href="#situations">Situations</a>
         <a href="#reseau">Réseau</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="header-action" href="#diagnostic">Commencer</a>
+      <a class="header-action" href="#orientation">Décrire ma situation</a>
     </header>
 
-    <main>
+    <main id="contenu">
       <section class="hero" id="accueil">
-        <img class="hero-image" src="assets/territory-hero.png" alt="Vue d'un territoire avec ville, rivière et espaces naturels" />
-        <div class="hero-shade"></div>
+        <img
+          class="hero-image"
+          src="assets/territory-hero.webp"
+          width="1727"
+          height="911"
+          fetchpriority="high"
+          alt="Vue d'un territoire reliant ville, rivière et espaces naturels"
+        />
+        <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-content">
           <p class="eyebrow">Médiation territoriale et coopération</p>
-          <h1>Comprendre un territoire, révéler ses ressources, faciliter les coopérations.</h1>
+          <h1>Géomédiation</h1>
+          <p class="hero-lead">
+            Comprendre une situation, relier les bonnes personnes et construire une suite praticable.
+          </p>
           <p class="hero-copy">
-            Géomédiation aide les acteurs locaux à clarifier une situation, relier les besoins aux ressources et construire des chemins d'action partageables.
+            Nous accompagnons les acteurs locaux quand les besoins, les ressources et les responsabilités doivent être clarifiés avant d'agir ensemble.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#diagnostic">Créer une première lecture</a>
-            <a class="button secondary" href="#approche">Explorer l'approche</a>
+            <a class="button primary" href="#orientation">Décrire ma situation</a>
+            <a class="button secondary" href="#approche">Comprendre l'approche</a>
           </div>
         </div>
       </section>
 
-      <section class="signal-band" aria-label="Indicateurs">
-        <div>
-          <strong>Territoires</strong>
-          <span>diagnostics, ateliers, projets et ressources reliées</span>
-        </div>
-        <div>
-          <strong>Coopération</strong>
-          <span>acteurs, médiations et complémentarités rendues visibles</span>
-        </div>
-        <div>
-          <strong>Mémoire</strong>
-          <span>chaque contribution conserve son contexte et sa provenance</span>
+      <section class="signal-band" aria-label="Ce que permet Géomédiation">
+        <div class="band-inner">
+          <div>
+            <strong>Comprendre</strong>
+            <span>faire apparaître les faits, tensions, inconnues et marges d'action</span>
+          </div>
+          <div>
+            <strong>Relier</strong>
+            <span>identifier les acteurs, ressources et compétences utiles à la situation</span>
+          </div>
+          <div>
+            <strong>Agir</strong>
+            <span>construire des options, des rôles clairs et une coopération réaliste</span>
+          </div>
         </div>
       </section>
 
       <section class="section" id="approche">
-        <div class="section-intro">
-          <p class="eyebrow">Approche</p>
-          <h2>Une plateforme humaine avant d'être technique.</h2>
-          <p>
-            Géomédiation ne remplace pas l'expertise de terrain. Le site ouvre un parcours pour accueillir une situation, identifier les acteurs concernés et transformer des informations dispersées en connaissances utiles.
-          </p>
-        </div>
-        <div class="principle-grid">
-          <article>
-            <span>01</span>
-            <h3>Écouter</h3>
-            <p>Partir du récit, des contraintes et des signaux faibles sans forcer un questionnaire rigide.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Structurer</h3>
-            <p>Qualifier les besoins, ressources, tensions, acteurs, temporalités et niveaux de preuve.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Relier</h3>
-            <p>Faire apparaître les complémentarités et les coopérations possibles entre personnes, lieux et projets.</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>Transmettre</h3>
-            <p>Produire des supports lisibles, sourçables et réutilisables pour les décisions humaines.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section alt" id="parcours">
-        <div class="section-intro">
-          <p class="eyebrow">Parcours</p>
-          <h2>Trois entrées claires pour avancer.</h2>
-        </div>
-        <div class="offer-list">
-          <article class="offer">
-            <div>
-              <p class="offer-kicker">Sensibilisation</p>
-              <h3>Ouvrir une culture commune</h3>
-            </div>
-            <p>Échanges, questions, premiers repères et temps collectifs pour comprendre l'organisation individuelle et collective optimale.</p>
-          </article>
-          <article class="offer">
-            <div>
-              <p class="offer-kicker">Accompagnement</p>
-              <h3>Tenir une situation complexe</h3>
-            </div>
-            <p>Appui personnalisé, individuel ou collectif, pour clarifier les rôles, apaiser les tensions et rendre l'action praticable.</p>
-          </article>
-          <article class="offer">
-            <div>
-              <p class="offer-kicker">Plateforme</p>
-              <h3>Relier besoins et ressources</h3>
-            </div>
-            <p>Co-construction d'un dispositif territorial qui facilite la rencontre entre acteurs alternatifs, ressources disponibles et besoins locaux.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section diagnostic" id="diagnostic">
-        <div class="diagnostic-panel">
-          <div>
-            <p class="eyebrow">Onboarding</p>
-            <h2>Créer une première lecture de situation.</h2>
+        <div class="section-inner">
+          <div class="section-intro">
+            <p class="eyebrow">Approche</p>
+            <h2>Une médiation située, au service des décisions humaines.</h2>
             <p>
-              Ce module de pré-contact aide à qualifier la demande avant un échange humain. Rien n'est envoyé pour l'instant : il sert à prototyper le futur tunnel du site.
+              Géomédiation part du terrain et des personnes concernées. Elle aide à distinguer ce qui est observé, déclaré, supposé ou encore à vérifier, sans remplacer les expertises ni les autorités légitimes.
             </p>
           </div>
-          <form class="intake-form" id="intakeForm">
-            <label>
-              Votre contexte
-              <select name="context">
-                <option>Collectivité ou territoire</option>
-                <option>Association ou collectif</option>
-                <option>Entreprise engagée</option>
-                <option>Projet de recherche</option>
-                <option>Situation libre</option>
-              </select>
-            </label>
-            <label>
-              Priorité du moment
-              <select name="priority">
-                <option>Clarifier une situation</option>
-                <option>Organiser un atelier</option>
-                <option>Identifier des partenaires</option>
-                <option>Structurer un projet</option>
-                <option>Apaiser une tension</option>
-              </select>
-            </label>
-            <label>
-              En quelques lignes
-              <textarea name="message" rows="5" placeholder="Décrivez le territoire, les acteurs, les besoins ou la question de départ."></textarea>
-            </label>
-            <button class="button primary" type="submit">Générer la lecture</button>
-          </form>
+          <div class="principle-grid">
+            <article>
+              <span>01</span>
+              <h3>Écouter</h3>
+              <p>Accueillir les récits, contraintes et signaux faibles sans plaquer une réponse standard.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Structurer</h3>
+              <p>Qualifier les besoins, ressources, tensions, temporalités et niveaux de preuve.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Relier</h3>
+              <p>Faire apparaître les complémentarités entre personnes, lieux, métiers et projets.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Transmettre</h3>
+              <p>Produire une trace lisible, sourçable et réutilisable pour préparer la décision.</p>
+            </article>
+          </div>
         </div>
-        <output class="intake-output" id="intakeOutput" aria-live="polite"></output>
+      </section>
+
+      <section class="guarantee-band" aria-label="Garanties de méthode">
+        <div class="section-inner guarantee-list">
+          <p><strong>Pas de diagnostic automatique.</strong> Chaque lecture reste candidate et discutée.</p>
+          <p><strong>Pas de décision à votre place.</strong> Les rôles et autorités restent explicites.</p>
+          <p><strong>Pas de solution hors-sol.</strong> Le territoire et ses contraintes guident le travail.</p>
+        </div>
+      </section>
+
+      <section class="section alt" id="interventions">
+        <div class="section-inner">
+          <div class="section-intro">
+            <p class="eyebrow">Interventions</p>
+            <h2>Trois formats pour passer d'une situation floue à une action partagée.</h2>
+          </div>
+          <div class="offer-list">
+            <article class="offer">
+              <div>
+                <p class="offer-kicker">Première lecture</p>
+                <h3>Clarifier avant de choisir</h3>
+              </div>
+              <p>Délimiter la situation, identifier les acteurs, les ressources, les inconnues et les premières questions utiles.</p>
+              <span class="offer-use">Pour cadrer une demande ou préparer une rencontre.</span>
+            </article>
+            <article class="offer">
+              <div>
+                <p class="offer-kicker">Médiation et coopération</p>
+                <h3>Rendre le dialogue praticable</h3>
+              </div>
+              <p>Organiser un espace de compréhension, clarifier les légitimités et construire des options sans effacer les désaccords.</p>
+              <span class="offer-use">Pour une tension, une gouvernance ou une coopération à structurer.</span>
+            </article>
+            <article class="offer">
+              <div>
+                <p class="offer-kicker">Expérimentation territoriale</p>
+                <h3>Tester à une échelle maîtrisée</h3>
+              </div>
+              <p>Transformer une hypothèse en protocole concret, avec responsabilités, critères d'observation et conditions de révision.</p>
+              <span class="offer-use">Pour apprendre avant de déployer plus largement.</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="situations">
+        <div class="section-inner">
+          <div class="section-intro">
+            <p class="eyebrow">Situations</p>
+            <h2>Vous pouvez nous solliciter sans avoir déjà formulé la solution.</h2>
+            <p>Ces situations-types donnent des repères. Elles ne remplacent pas l'étude de votre contexte.</p>
+          </div>
+          <div class="situation-grid">
+            <article>
+              <p class="situation-number">01</p>
+              <h3>Un projet implique trop d'acteurs pour avancer clairement</h3>
+              <p>Les rôles se superposent, les attentes divergent ou personne ne sait exactement qui peut décider.</p>
+            </article>
+            <article>
+              <p class="situation-number">02</p>
+              <h3>Une tension bloque la coopération</h3>
+              <p>Les échanges se crispent et il devient difficile de distinguer les faits, les interprétations et les désaccords de fond.</p>
+            </article>
+            <article>
+              <p class="situation-number">03</p>
+              <h3>Des ressources existent mais restent dispersées</h3>
+              <p>Les compétences, lieux ou initiatives sont présents sans parvenir à composer une réponse territoriale cohérente.</p>
+            </article>
+            <article>
+              <p class="situation-number">04</p>
+              <h3>Une idée doit être testée sans surinvestir</h3>
+              <p>Le besoin est réel, mais le bon périmètre, les partenaires et les critères d'apprentissage restent à construire.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section orientation" id="orientation">
+        <div class="section-inner">
+          <div class="orientation-panel">
+            <div class="orientation-copy">
+              <p class="eyebrow">Première orientation</p>
+              <h2>Décrivez le point de départ.</h2>
+              <p>
+                Cette étape vous propose un repère à partir de deux choix simples. Vos réponses restent dans votre navigateur tant que vous ne décidez pas d'ouvrir un courriel.
+              </p>
+            </div>
+            <form class="intake-form" id="intakeForm" aria-describedby="formPrivacy">
+              <label>
+                Votre contexte
+                <select name="context" required>
+                  <option value="" selected disabled>Choisir un contexte</option>
+                  <option>Collectivité ou territoire</option>
+                  <option>Association ou collectif</option>
+                  <option>Entreprise engagée</option>
+                  <option>Projet de recherche</option>
+                  <option>Situation libre</option>
+                </select>
+              </label>
+              <label>
+                Priorité du moment
+                <select name="priority" required>
+                  <option value="" selected disabled>Choisir une priorité</option>
+                  <option>Clarifier une situation</option>
+                  <option>Organiser un atelier</option>
+                  <option>Identifier des partenaires</option>
+                  <option>Structurer un projet</option>
+                  <option>Apaiser une tension</option>
+                </select>
+              </label>
+              <label>
+                Quelques éléments de contexte <span class="optional">(facultatif)</span>
+                <textarea name="message" rows="5" placeholder="Territoire, acteurs concernés, contrainte principale..."></textarea>
+              </label>
+              <p class="form-note" id="formPrivacy">Aucune donnée n'est stockée ni envoyée automatiquement par ce site.</p>
+              <button class="button primary" type="submit">Obtenir une orientation</button>
+            </form>
+          </div>
+          <output class="intake-output" id="intakeOutput" aria-live="polite" tabindex="-1" hidden></output>
+        </div>
       </section>
 
       <section class="section" id="reseau">
-        <div class="section-intro">
-          <p class="eyebrow">Réseau</p>
-          <h2>Une guilde de compétences par thèmes et territoires.</h2>
-          <p>
-            Le futur site doit rendre visibles les acteurs clefs, les médiateurs, les ressources et les territoires d'intervention, sans enfermer la coopération dans une liste figée.
-          </p>
-        </div>
-        <div class="network-map" aria-label="Représentation simplifiée du réseau">
-          <div class="node main">Géomédiation</div>
-          <div class="node n1">Médiation</div>
-          <div class="node n2">Territoires</div>
-          <div class="node n3">Ressources</div>
-          <div class="node n4">Ateliers</div>
-          <div class="node n5">Plateforme</div>
+        <div class="section-inner network-layout">
+          <div class="section-intro">
+            <p class="eyebrow">Réseau</p>
+            <h2>Composer la bonne réponse autour de chaque situation.</h2>
+            <p>
+              Géomédiation peut mobiliser des professionnels et partenaires selon les compétences nécessaires, le territoire et le type d'intervention. La mise en relation reste expliquée et validée humainement.
+            </p>
+          </div>
+          <div class="network-list" aria-label="Compétences mobilisables">
+            <article>
+              <h3>Médiation</h3>
+              <p>Tenir les désaccords et rouvrir un espace de travail.</p>
+            </article>
+            <article>
+              <h3>Lecture territoriale</h3>
+              <p>Relier besoins, ressources, usages et échelles d'action.</p>
+            </article>
+            <article>
+              <h3>Facilitation</h3>
+              <p>Préparer des temps collectifs utiles et traçables.</p>
+            </article>
+            <article>
+              <h3>Structuration</h3>
+              <p>Clarifier les rôles, engagements et règles de coopération.</p>
+            </article>
+          </div>
         </div>
       </section>
 
       <section class="section contact" id="contact">
-        <div>
-          <p class="eyebrow">Prochaine étape</p>
-          <h2>Transformer cette base en site diffusable.</h2>
-          <p>
-            Les prochaines itérations peuvent ajouter le contenu Géoguide, les pages activités, les portraits réseau, les schémas pédagogiques et le branchement formulaire.
-          </p>
+        <div class="section-inner contact-inner">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Parlons de votre situation.</h2>
+            <p>
+              Un premier échange permet de vérifier si Géomédiation est la bonne porte d'entrée et de définir une suite réaliste.
+            </p>
+          </div>
+          <a class="button primary" href="mailto:contact@geomediation.fr">Écrire à Géomédiation</a>
         </div>
-        <a class="button primary" href="mailto:contact@geomediation.fr">Écrire à Géomédiation</a>
       </section>
     </main>
 
     <footer class="footer">
       <span>Géomédiation</span>
       <span>Initiative autonome, ouverte aux coopérations méthodologiques explicites.</span>
+      <span class="footer-note">KLE/Nexus peut soutenir certains travaux dans un cadre partenarial défini.</span>
     </footer>
 
     <script src="script.js"></script>

@@ -8,7 +8,7 @@ Le site présente Géomédiation comme une démarche de médiation territoriale 
 
 - clarifier les besoins et ressources d'un territoire;
 - accompagner les collectifs, associations, collectivités et acteurs engagés ;
-- ouvrir un tunnel d'onboarding vers les activités de sensibilisation et d'accompagnement ;
+- proposer une première orientation locale avant un échange humain, sans collecte automatique ;
 - présenter le réseau, les médiateurs, les territoires et la future plateforme de mise en relation.
 
 ## Sources de cadrage
@@ -26,8 +26,8 @@ Géomédiation reste une initiative autonome. La KLE peut contribuer comme cadre
 
 - `index.html` - page principale.
 - `styles.css` - design system et responsive layout.
-- `script.js` - interactions légères pour l'onboarding et les formulaires.
-- `assets/territory-hero.png` - visuel héros généré pour le site.
+- `script.js` - orientation locale et préparation d'un courriel de contact.
+- `assets/territory-hero.webp` - visuel héros optimisé pour le site.
 - `docs/source-map.md` - trace courte des sources et hypothèses.
 
 ## Lancer localement
