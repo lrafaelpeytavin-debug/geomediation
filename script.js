@@ -1,3 +1,5 @@
+document.documentElement.classList.remove("no-js");
+
 const form = document.querySelector("#intakeForm");
 const output = document.querySelector("#intakeOutput");
 

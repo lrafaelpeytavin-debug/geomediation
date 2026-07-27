@@ -44,7 +44,7 @@ textarea {
 }
 
 section[id] {
-  scroll-margin-top: 92px;
+  scroll-margin-top: 0;
 }
 
 .skip-link {
@@ -189,6 +189,7 @@ section[id] {
 
 .hero-content {
   position: relative;
+  min-width: 0;
   width: min(100%, 820px);
 }
 
@@ -460,6 +461,15 @@ textarea {
   font-size: 0.86rem;
 }
 
+.no-js .intake-form {
+  display: none;
+}
+
+.no-script-note a {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .intake-output {
   display: grid;
   gap: 10px;
@@ -587,7 +597,7 @@ textarea {
   }
 
   section[id] {
-    scroll-margin-top: 132px;
+    scroll-margin-top: 0;
   }
 
   .site-header {
@@ -683,7 +693,7 @@ textarea {
   }
 
   h1 {
-    font-size: 3.4rem;
+    font-size: 2.8rem;
   }
 
   h2 {
